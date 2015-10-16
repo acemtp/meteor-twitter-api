@@ -9,14 +9,14 @@ meteor-twitter-api is a simple package to wrap the Twitter API using Meteor's Tw
 
 To install in a new project:
 ```bash
-> meteor add acemtp:twitter-api
+meteor add acemtp:twitter-api
 ```
 
 ## Run the Example
 ```bash
-> git clone https://github.com/acemtp/meteor-twitter-api.git twitter-api
-> cd twitter-api/examples/basic
-> meteor
+git clone https://github.com/acemtp/meteor-twitter-api.git twitter-api
+cd twitter-api/examples/basic
+meteor
 ```
 
 ## Get Started

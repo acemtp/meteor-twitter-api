@@ -1,6 +1,8 @@
 Meteor Twitter API Package
 ==========================
 
+Since sewdn:twitter-api is not updated since 2 years, I create this fork to add some features like specific userId
+
 meteor-twitter-api is a simple package to wrap the Twitter API using Meteor's Twitter Service OAuth1Binding class.
 
 Latest Version: **0.1.2**
@@ -9,23 +11,15 @@ Latest Version: **0.1.2**
 
 To install in a new project:
 ```bash
-> mrt add twitter-api
-```
-
-To update an existing project:
-```bash
-> mrt update twitter-api
+> meteor add acemtp:twitter-api
 ```
 
 ## Run the Example
 ```bash
-> git clone https://github.com/sewdn/meteor-twitter-api.git twitter-api
+> git clone https://github.com/acemtp/meteor-twitter-api.git twitter-api
 > cd twitter-api/examples/basic
-> mrt
+> meteor
 ```
-
-## Run Tests
-no tests for now
 
 ## Get Started
 

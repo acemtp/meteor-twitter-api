@@ -5,8 +5,6 @@ Since sewdn:twitter-api is not updated since 2 years, I create this fork to add 
 
 meteor-twitter-api is a simple package to wrap the Twitter API using Meteor's Twitter Service OAuth1Binding class.
 
-Latest Version: **0.1.2**
-
 ## Install
 
 To install in a new project:
@@ -29,6 +27,8 @@ if (Meteor.isServer) {
     var twitter = new TwitterApi();
 }
 ```
+
+You can add in the constructor `{ userId: 'xxx' }` so the twitter api will use this specific user to get oauth. If you don't provide a specific userId, it'll use `Meteor.user()`.
 
 After that, define some `Meteor.methods` that you can `call` from the client side of your application.
 
